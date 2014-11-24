@@ -34,7 +34,7 @@ def parseOptions():
                       help="File containing JSON records to validate.")
     (options, args) = parser.parse_args()
 
-    if not hasattr(options, 'jsonfile'):
+    if options.jsonfile is None:
         parser.print_help()
         sys.exit(1)
 
