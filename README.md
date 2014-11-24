@@ -9,6 +9,6 @@ Usage: jsonr [options]
 
 Options:
   -h, --help            show this help message and exit
-    -f JSONFILE, --file=JSONFILE
+  -f JSONFILE, --file=JSONFILE
                         File containing JSON records to validate.
 ```
